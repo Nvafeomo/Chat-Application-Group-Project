@@ -38,11 +38,11 @@ sudo apt install build-essential
 ```
 ### Compilation
 **Compile Server**
-gcc server.c -lpthread -o server
+-gcc server.c -lpthread -o server
 **Run Server**
-sudo ./server or ./server 8080(specified port)
+-sudo ./server or ./server 8080(specified port)
 **Compile Client**
-gcc client.c -o client
+-gcc client.c -o client
 
 ./client 8080(Specify port if applicable)
 

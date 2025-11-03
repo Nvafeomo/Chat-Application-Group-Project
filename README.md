@@ -1,11 +1,11 @@
-## 📚 Project Summary
+## Project Summary
 This project implements a multi-client TCP chat server in C using POSIX sockets and pthreads. Developed as part of a group assignment, the server handles concurrent client connections, broadcasts messages, and manages thread-safe communication using mutexes.
 
 The server was written and tested in a **Linux virtual machine** using Ubuntu. I wrote the server program and created a Java GUI, but we ended up not using it and went with C implemented GUI created by another group member. The server remains fully compatible with any standard TCP client.
 
 ---
 
-## 🧠 Key Features
+##  Key Features
 - Accepts up to **5 simultaneous clients**
 - Uses **POSIX threads** for concurrent client handling
 - Implements **mutex locking** to prevent race conditions
@@ -15,16 +15,16 @@ The server was written and tested in a **Linux virtual machine** using Ubuntu. I
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 - **C** (POSIX sockets, pthreads)
 - **Linux VM** for development and testing
 - **VS Code** as the primary IDE
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### 🔧 Prerequisites
+###  Prerequisites
 This server is designed for **Linux environments**. It will not compile on native Windows without significant modification.
 
 Make sure you have:

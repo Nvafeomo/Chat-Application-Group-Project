@@ -35,7 +35,7 @@ Install essentials:
 ```bash
 sudo apt update
 sudo apt install build-essential
-
+```
 ### Compilation
 **Compile Server**
 gcc server.c -lpthread -o server

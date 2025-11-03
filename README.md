@@ -45,11 +45,15 @@ gcc server.c -lpthread -o server.
 ```bash
 sudo ./server or ./server 8080(specified port).
 ```
-**Compile Client**.
+### Client
+**Compile**
+```bash
 gcc client.c -o client.
-
+```
+**Run**
+```bash
 ./client 8080(Specify port if applicable)
-
+```
 ### Termination
 
 Press Ctrl+C in the server terminal to shut down the program

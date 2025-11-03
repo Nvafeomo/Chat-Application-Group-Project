@@ -36,10 +36,15 @@ Install essentials:
 sudo apt update
 sudo apt install build-essential
 ```
-### Compilation
-**Compile Server**. gcc server.c -lpthread -o server.
-**Run Server**.
+### Server
+**Compile**
+```bash
+gcc server.c -lpthread -o server.
+```
+**Run**
+```bash
 sudo ./server or ./server 8080(specified port).
+```
 **Compile Client**.
 gcc client.c -o client.
 
